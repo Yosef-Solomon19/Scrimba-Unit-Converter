@@ -1,34 +1,67 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
 html, body {
     margin: 0;
-
+    padding: 0;
+    color: #f8f8ff;
 }
+
 body {    
-    background-color: rgb(255, 210, 143);
-    
+    background-color: rgb(255, 210, 143);    
 }
 
 main {
-    border: 2px solid red;
+
     max-width: 550px;
     margin: 0 auto;
     text-align: center;  
-
+    background-color: #1F2937;
+    
 }
-header {
-    border: 2px solid green;
+
+header {    
+        
+    background: linear-gradient(0deg, #1e8db6, #18244A);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+    @keyframes gradient {
+        0% {
+            background-position: 50% 0%;
+        }
+        50% {
+            background-position: 50% 100%;
+        }
+        100% {
+            background-position: 50% 0%;    
+        }
+    
 }
 
 .title {
     /* border: 2px solid yellow; */
-    margin-top: 50px;
+    /* margin-top: 50px; */
     /* margin-bottom: 5px; */
-    font-size: 25px;
+    margin-top: 0px;
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: outfit;
+    
 }
 
 #count-el{
-    /* border: 2px solid blue; */
-    margin-top: 10px;
-    margin-bottom: 25px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 20px;    
     font-size: 80px;
+    font-family: sans-serif;
+    
 }
+.container {   
+    /* padding: 0px;
+    border: 2px solid red; */
+    padding-bottom: 20px;
+}
+
