@@ -12,7 +12,23 @@ main {
     border: 2px solid red;
     max-width: 550px;
     margin: 0 auto;
-    text-align: center;
-    
+    text-align: center;  
+
+}
+header {
+    border: 2px solid green;
 }
 
+.title {
+    /* border: 2px solid yellow; */
+    margin-top: 50px;
+    /* margin-bottom: 5px; */
+    font-size: 25px;
+}
+
+#count-el{
+    /* border: 2px solid blue; */
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 80px;
+}
