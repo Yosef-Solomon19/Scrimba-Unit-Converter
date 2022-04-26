@@ -8,20 +8,23 @@ html, body {
 }
 
 body {    
-    background-color: rgb(255, 210, 143);    
+    /* background-color: rgb(255, 210, 143);     */
+    background-color: #777777;
 }
 
 main {
-
     max-width: 550px;
     margin: 0 auto;
     text-align: center;  
     background-color: #1F2937;
+    margin-top: 25px;
+    border-radius: 10px;
+    
     
 }
 
 header {    
-    
+    border-radius: 10px 10px 0px 0px;  /* Affects the corners of the element in clock-wise order */    
     background: linear-gradient(45deg, #1e8db6, #18244A, #18244A, #1e8db6);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
@@ -36,7 +39,7 @@ header {
         }
         100% {
             background-position: 0% 50%;    
-        }
+        }   
     
 }
 
@@ -61,7 +64,11 @@ header {
 }
 .container {   
     /* padding: 0px;
-    border: 2px solid red; */
-    padding-bottom: 20px;
+    border: 2px solid red; */    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    padding: 15px 50px 20px;
 }
 
+#length-el, #volume-el, #mass-el {
+    color:#cccccc
+}
