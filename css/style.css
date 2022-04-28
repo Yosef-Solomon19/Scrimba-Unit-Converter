@@ -44,6 +44,14 @@ header {
     
 }
 
+header button {
+    background: transparent;
+    /* outline: none; */
+    /* border: none; */
+    color: white;
+    border-radius: 3px;
+}
+
 .title {
     /* border: 2px solid yellow; */
     /* margin-top: 50px; */
