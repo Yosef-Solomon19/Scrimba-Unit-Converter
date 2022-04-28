@@ -16,33 +16,26 @@ const countEl = document.getElementById("count-el");
 
 function getNumber() {
     count = Number(countEl.value);
-    if (count < 0) {
-        alert("Please type in positive values.")
-        count = 0;
-        console.log(`reset count to ${count}.`);
-        countEl.textContent = 0;
-    } else {
-        console.log(`Postive value: ${count}`);
-        console.log(typeof(count));
-
-    }
-    
-    // console.log(countEl.value);
-    // console.log(typeof(countEl.value));
-
-    // count = Number(countEl.value);
-    console.log(`Check count: ${count}.`);
+    // if (count < 0) {
+    //     alert("Please type in positive values.")
+    //     count = 0;
+    //     console.log(`reset count to ${count}.`);
+    //     countEl.textContent = 0;
+    // } else {
+    //     count = Number(countEl.value);
+    //     console.log(`Postive value: ${count}`);
+    //     console.log(typeof(count));
+    // }    
+    console.log(`After logical statement: ${count}`);
     console.log(typeof(count));
 
-    // console.log(typeof(countEl));
-    // console.log(countEl.value)
-    // console.log(typeof(countEl.value));
-    // lengthEl.textContent = Number(countEl.value) + 1 ;    
-    
 }  
 console.log("Hello" + countEl.value);
 
+// create function to call calculate unitconversions. 
+function unitConversions() {
 
+}
 
 // Task to do: 
 // Get the value from the input
