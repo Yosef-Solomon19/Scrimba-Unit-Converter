@@ -12,7 +12,8 @@
         <main>
             <header>
                 <h1 class="title">Metric/Imperial unit conversion</h1>
-                <input type="text" id="count-el" min="10" max="100" placeholder="Type here">
+                <input type="number" onfocus="this.value=''" id="count-el"  min="0" max="100" placeholder="Type here">
+                <button onclick=getNumber()>Enter</button>
             </header>
 
             <section>
