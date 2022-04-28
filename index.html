@@ -12,7 +12,7 @@
         <main>
             <header>
                 <h1 class="title">Metric/Imperial unit conversion</h1>
-                <input type="number" onfocus="this.value=''" id="count-el"  min="0" max="100" placeholder="Type here">
+                <input type="text" onfocus="this.value=''" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" id="count-el"  min="0" placeholder="Type here">
                 <button onclick=getNumber()>Enter</button>
             </header>
 
