@@ -1,14 +1,4 @@
 "use strict"; 
-
-// Formula for converting meter to feet. 
-// Meter to feet 
-// 1m = 3.28ft 
-// Mulitply the number of meter by 3.28
-// 
-// Feet to meter
-// 1f= 1m/3.28 = .304m
-// xft * .304m 
-
 let count; 
 let lengthEl= document.getElementById("length-el");
 
@@ -41,3 +31,26 @@ function unitConversions() {
 // Get the value from the input
 // Check whether the value is actually an integer 
 // Do calculations
+
+// 28/4/2022
+// What I'm accomplished: 
+// - Created button with onclick attr. w/ a function to get the number from
+// the user when its clicked after they've typed the number in the input field.
+// - Created function to collect and convert value from input to number.
+// 
+
+// 28/4/2022
+// Task's left to do:
+// Provide conversions formula 
+// Reflect conversion result on the page through the id's i.e volume-el
+// Is it possible to hide the values and then reveal it when clicked by the user ??
+// 
+// 
+// Formula for converting meter to feet. 
+// Meter to feet 
+// 1m = 3.28ft 
+// Mulitply the number of meter by 3.28
+// 
+// Feet to meter
+// 1f= 1m/3.28 = .304m
+// xft * .304m 
