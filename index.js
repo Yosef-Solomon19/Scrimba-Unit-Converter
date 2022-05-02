@@ -4,6 +4,13 @@ let lengthEl= document.getElementById("length-el");
 
 const countEl = document.getElementById("count-el");
 
+// 
+countEl.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        getNumber();
+    }
+});
+
 function getNumber() {
     count = Number(countEl.value);
     // if (count < 0) {
@@ -16,7 +23,7 @@ function getNumber() {
     //     console.log(`Postive value: ${count}`);
     //     console.log(typeof(count));
     // }    
-    console.log(`After logical statement: ${count}`);
+    console.log(`After function call: ${count}`);
     console.log(typeof(count));
 
 }  
@@ -54,3 +61,6 @@ function unitConversions() {
 // Feet to meter
 // 1f= 1m/3.28 = .304m
 // xft * .304m 
+
+// 5/2/2022
+// New question: Is it possible
