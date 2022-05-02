@@ -12,4 +12,4 @@ I'll be adding additional features to this such as:
 &ensp;&ensp; - [] Adding different conversions such as temperature, and speed.
 
 Other potential features to be added in the near future:\
-&ensp;&ensp; - [] Display calculation when user clicks on the unit conversion they want.
+&ensp;&ensp; - [] Display result of the unit conversion the user wants to see when user clicks on the unit conversion they want i.e when user clicks length, user receives conversion result.
