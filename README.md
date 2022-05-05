@@ -1,6 +1,6 @@
 # Unit Converter link
 
-[title](https://unit-converter-scrimba.netlify.app/)
+[https://unit-converter-scrimba.netlify.app/](https://unit-converter-scrimba.netlify.app/)
 
 #### Part of Module 3(Making Website Interactive) challenge in the Front-End Career path at Scrimba.
 
