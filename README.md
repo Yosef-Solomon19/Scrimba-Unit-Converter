@@ -8,6 +8,7 @@ In this solo project I'll be building a unit converter that will take a number. 
 
 I'll be adding additional features to this such as:
 
+&ensp;&ensp; - [X] Creating an animated gradient background.\
 &ensp;&ensp; - [X] Adding input for the user to change the number and automatically recalculate the value.\
 &ensp;&ensp; - [X] Adding different conversions such as temperature, and speed.
 
