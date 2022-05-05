@@ -118,6 +118,10 @@ function unitConversions() {
 // - Reflect the conversion result on the page the id's i.e volume-el
 // 
 // Task's left to do:
+// Since the user has to hit the enter button to get the calculations done. 
+// I need to figure out how to get caluclation done automatically w/out hitting the enter button.
+//  https://www.youtube.com/watch?v=1UAORTlaqLg <-- This may help.
+//
 // // *Optional* Is it possible to hide the values and then reveal it when clicked by the user ??
 //          I found/learned taht by using the <details> element with the <summary> element it can reduce the clutter 
 //          and allow the user to click on which conversion result they want to see.
