@@ -8,8 +8,8 @@ In this solo project I'll be building a unit converter that will take a number. 
 
 I'll be adding additional features to this such as:
 
-&ensp;&ensp; - [] Adding input for the user to change the number and automatically recalculate the value.\
-&ensp;&ensp; - [] Adding different conversions such as temperature, and speed.
+&ensp;&ensp; - [X] Adding input for the user to change the number and automatically recalculate the value.\
+&ensp;&ensp; - [X] Adding different conversions such as temperature, and speed.
 
 Other potential features to be added in the near future:\
 &ensp;&ensp; - [] Display result of the unit conversion the user wants to see when user clicks on the unit conversion they want i.e when user clicks length, user receives conversion result.
