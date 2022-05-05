@@ -9,11 +9,11 @@ let tempEl= document.getElementById("temp-el");
 const countEl = document.getElementById("count-el");
 
 // Add event listener to get value via getNumber if the "Enter" button was pressed.
-countEl.addEventListener("keydown", function(event) {
-    if (event.key === "Enter") {
-        getNumber();
-    }
-});
+// countEl.addEventListener("keydown", function(event) {
+//     if (event.key === "Enter") {
+//         getNumber();
+//     }
+// });
 
 function getNumber() {
     count = Number(countEl.value);
@@ -58,8 +58,8 @@ function unitConversions() {
 
     // Convert kilometer to miles and vice versa 
     let kilometerToMiles = (count * .6214).toFixed(3);
-    let milesTokilometer = (count * 1.609).toFixed(3);
-    speedEl.textContent = `${count} kilometers = ${kilometerToMiles} miles | ${count} miles = ${milesTokilometer} kilometers.`;
+    let milesToKilometer = (count * 1.609).toFixed(3);
+    speedEl.textContent = `${count} kilometers = ${kilometerToMiles} miles | ${count} miles = ${milesToKilometer} kilometers.`;
 
     // convert farenheit to celsius  and vice versa 
     let farenheitToCelsius = ((count - 32) * .5556).toFixed(3);
