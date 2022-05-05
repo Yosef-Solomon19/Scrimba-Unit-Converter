@@ -1,6 +1,10 @@
 "use strict"; 
 let count; 
 let lengthEl= document.getElementById("length-el");
+let volumeEl= document.getElementById("volume-el");
+let massEl= document.getElementById("mass-el");
+let speedEl= document.getElementById("speed-el");
+let tempEl= document.getElementById("temp-el");
 
 const countEl = document.getElementById("count-el");
 
@@ -36,8 +40,31 @@ console.log("Hello" + countEl.value);
 function unitConversions() {
     // Unit Conversion for Length m/ft
     // const meterFormula=;
-    lengthEl.textContent = `${count} meters = 65.616 feet | 20 feet = 6.096 meters.`;
 
+    // Convert meter to feet & vice versa
+    let meterToFeet = (count * 3.281).toFixed(3);
+    let feetToMeter = (count * .3048).toFixed(3)
+    lengthEl.textContent = `${count} meters = ${meterToFeet} feet | ${count} feet = ${feetToMeter} meters.`;
+
+    // Convert liters to gallons and vice versa
+    let literToGallon = (count / 3.785).toFixed(3);
+    let gallonToLiter = (count * 3.785).toFixed(3);    
+    volumeEl.textContent = `${count} liters = ${literToGallon} gallon | ${count} gallons = ${gallonToLiter} liters.`;
+
+    // Convert kilograms to pounds and vice versa 
+    let kilogramToPound = (count * 2.205).toFixed(3);
+    let poundToKilogram = (count * .4535).toFixed(3);
+    massEl.textContent = `${count} kilograms = ${kilogramToPound} pounds | ${count} pounds = ${poundToKilogram} kilograms.`;
+
+    // Convert kilometer to miles and vice versa 
+    let kilometerToMiles = (count * .6214).toFixed(3);
+    let milesTokilometer = (count * 1.609).toFixed(3);
+    speedEl.textContent = `${count} kilometers = ${kilometerToMiles} miles | ${count} miles = ${milesTokilometer} kilometers.`;
+
+    // convert farenheit to celsius  and vice versa 
+    let farenheitToCelsius = ((count - 32) * .5556).toFixed(3);
+    let celsiusToFarenheit = ((count * 1.8) + 32).toFixed(3);
+    tempEl.textContent = `${count} farenheit = ${farenheitToCelsius} celsius | ${count} celsius = ${celsiusToFarenheit} farenheit.`;
 }
 
 // Formula for converting meter to feet. 
@@ -82,4 +109,16 @@ function unitConversions() {
 // Reflect conversion result on the page through the id's i.e volume-el
 // *Optional* Is it possible to hide the values and then reveal it when clicked by the user ??
 // 
+// 
+
+
+// 5/5/2022
+// What I've accomplished :
+// - Providing calulation for the unit conversions. 
+// - Reflect the conversion result on the page the id's i.e volume-el
+// 
+// Task's left to do:
+// // *Optional* Is it possible to hide the values and then reveal it when clicked by the user ??
+//          I found/learned taht by using the <details> element with the <summary> element it can reduce the clutter 
+//          and allow the user to click on which conversion result they want to see.
 // 
