@@ -12,7 +12,7 @@
         <main>
             <header>
                 <h1 class="title">Metric/Imperial unit conversion</h1>
-                <input type="text" onkeyup="getNumber()" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" id="count-el"  min="0" placeholder="Type here">
+                <input type="text" onfocus="this.value=''" onkeyup="getNumber()" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" id="count-el"  min="0" placeholder="Type here">
                 <!-- <button onclick=getNumber()>Enter</button> -->
             </header>
 
@@ -47,7 +47,7 @@
                     </div>
                     <div class="speed">
                         <details>
-                            <summary>Speed (Kilometer per hour/Miles per hour)</summary>
+                            <summary>Speed (Kilometer/Miles)</summary>
                             <p id="speed-el"></p>
                         </details>
                         <!-- <p>Speed (Kilometer per hour/Miles per hour)</p>
