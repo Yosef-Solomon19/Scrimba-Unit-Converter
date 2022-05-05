@@ -18,13 +18,19 @@ main {
     text-align: center;  
     background-color: #1F2937;
     margin-top: 25px;
-    border-radius: 10px;
-    
-    
+    border-radius: 10px;    
+}
+
+header {
+    /* background: transparent; */
+    /* outline: none; */
+    /* border: none; */
+    color: white;
+    border-radius: 3px;
 }
 
 header {    
-    
+    background: transparent;
     border-radius: 10px 10px 0px 0px;  /* Affects the corners of the element in clock-wise order */    
     background: linear-gradient(45deg, #1e8db6, #18244A, #18244A, #1e8db6);
     background-size: 400% 400%;
@@ -44,13 +50,6 @@ header {
     
 }
 
-header button {
-    background: transparent;
-    /* outline: none; */
-    /* border: none; */
-    color: white;
-    border-radius: 3px;
-}
 
 .title {
     /* border: 2px solid yellow; */
@@ -77,7 +76,6 @@ header button {
     outline: none;  /* Removes the outline that is shown when user click on the input prior to typing  */
 }
 
-
 .container {   
     /* padding: 0px;
     border: 2px solid red; */    
@@ -85,6 +83,6 @@ header button {
     padding: 15px 50px 20px;
 }
 
-#length-el, #volume-el, #mass-el {
-    color:#cccccc
+#length-el, #volume-el, #mass-el, #speed-el, #temp-el {
+    color:#cccccc;
 }
