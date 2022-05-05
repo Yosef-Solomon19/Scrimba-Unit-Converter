@@ -12,35 +12,55 @@
         <main>
             <header>
                 <h1 class="title">Metric/Imperial unit conversion</h1>
-                <input type="text" onfocus="this.value=''" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" id="count-el"  min="0" placeholder="Type here">
+                <input type="text" onkeyup="getNumber()" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" id="count-el"  min="0" placeholder="Type here">
                 <!-- <button onclick=getNumber()>Enter</button> -->
             </header>
 
             <section>
                 <div class="container">
-                    <div>
-                        <p>Length (Meter/Feet)</p>
-                        <p id="length-el"><!--20 meters = 65.616 feet | 20 feet = 6.096 meters.--></p>
+                    <div class="length" >
+                        <details>
+                            <summary>Length (Meter/Feet)</summary>
+                            <p id="length-el"></p>
+                        </details>
+                        <!-- <p>Length (Meter/Feet)</p> -->
+                        <!-- <p id="length-el"></p> -->
 
                     </div>
-                    <div>
-                        <p>Volume (Liters/Gallons)</p>
-                        <p id="volume-el"><!--20 meters = 65.616 feet | 20 feet = 6.096 meters.--></p>
+                    <div class="volume">
+                        <details>
+                            <summary>Volume (Liters/Gallons)</summary>
+                            <p id="volume-el"></p>
+                        </details>
+                        <!-- <p>Volume (Liters/Gallons)</p>
+                        <p id="volume-el"></p> -->
 
                     </div>
-                    <div>
-                        <p>Mass (Kilograms/Pounds)</p>
-                        <p id="mass-el"><!--20 meters = 65.616 feet | 20 feet = 6.096 meters.--></p>
+                    <div class="mass">
+                        <details>
+                            <summary>Mass (Kilograms/Pounds)</summary>
+                            <p id="mass-el"></p>
+                        </details>
+                        <!-- <p>Mass (Kilograms/Pounds)</p>
+                        <p id="mass-el"></p> -->
 
                     </div>
-                    <div>
-                        <p>Speed (Kilometer per hour/Miles per hour)</p>
-                        <p id="speed-el"><!--20 meters = 65.616 feet | 20 feet = 6.096 meters.--></p>
+                    <div class="speed">
+                        <details>
+                            <summary>Speed (Kilometer per hour/Miles per hour)</summary>
+                            <p id="speed-el"></p>
+                        </details>
+                        <!-- <p>Speed (Kilometer per hour/Miles per hour)</p>
+                        <p id="speed-el"></p> -->
 
                     </div>
-                    <div>
-                        <p>Temperature (Farenheit/Celsius)</p>
-                        <p id="temp-el"><!--20 meters = 65.616 feet | 20 feet = 6.096 meters.--></p>
+                    <div class="temp">
+                        <details>
+                            <summary>Temperature (Farenheit/Celsius)</summary>
+                            <p id="temp-el"></p>
+                        </details>
+                        <!-- <p>Temperature (Farenheit/Celsius)</p>
+                        <p id="temp-el"></p> -->
 
                     </div>
                 </div> <!--Container End-->
