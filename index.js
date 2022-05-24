@@ -76,8 +76,6 @@ function unitConversions() {
 // 1f= 1m/3.28 = .304m
 // xft * .304m 
 
-
-
 // Task to do: 
 // Get the value from the input
 //  - **new** Add eventlistener to get value from input w/out the need for enter button.
