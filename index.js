@@ -29,9 +29,7 @@ function getNumber() {
     // }    
     console.log(`After function call: ${count}`);
     console.log(typeof(count));
-    unitConversions();
-    
-
+    unitConversions();    
 }  
 console.log("Hello" + countEl.value);
 
